@@ -46,7 +46,7 @@
 
         // GLTFLoaderを使用して3Dモデルを読み込む
         const loader = new THREE.GLTFLoader();
-        loader.load('taian.gltf', function(gltf) {
+        loader.load('box.gltf', function(gltf) {
             const model = gltf.scene;
             scene.add(model); // モデルをシーンに追加
             model.scale.set(1, 1, 1); // モデルのスケールを調整
